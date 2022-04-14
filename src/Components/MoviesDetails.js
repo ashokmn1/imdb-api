@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { useParams } from 'react-router'
 import { selectedDirector } from '../redux/actions/directorAction'
 import MovieComponent from './MovieComponent'

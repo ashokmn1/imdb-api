@@ -21,7 +21,7 @@
 .buttons{
     display: flex;
     justify-content: space-between;
-    width:200px;    
+    /* width:200px;     */
 }
 
 .director_container {
@@ -152,13 +152,13 @@ a:-webkit-any-link {
 
 ul {
     display: flex;
-    list-style: none;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: #e74c3c;
-    width: 70%;
     align-self: center;
     font-size: 1.2rem;
     margin: 2rem 0;
+    height: 5rem;
 }
 
 input{
@@ -171,6 +171,7 @@ input{
     border-radius: .2rem;
     padding: .2rem;
     text-align: center;
+    margin: 2rem 0;
 }
 
 input:focus
@@ -189,4 +190,21 @@ input:focus
     color:#d8d7e0;
     border-radius: 5px;
     padding: 0.1rem ;
+}
+
+Link {
+    margin: 1rem;
+}
+
+@media screen and (max-width:500px) {
+    
+    .heading{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    ul {
+        height: 100%;
+    } 
+
 }

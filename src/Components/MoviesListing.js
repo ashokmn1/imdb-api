@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { setMovies } from '../redux/actions/directorAction'
 import Movies from './Movies'
 import { Link } from 'react-router-dom'
